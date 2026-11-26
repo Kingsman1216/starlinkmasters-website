@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (year) year.textContent = new Date().getFullYear();
 
   const toggle = document.querySelector(".menu-toggle");
-  const nav = document.querySelector(".main-nav");
+  const nav = document.querySelector(".main-nav, .nav");
 
   if (toggle && nav) {
     toggle.addEventListener("click", () => {
