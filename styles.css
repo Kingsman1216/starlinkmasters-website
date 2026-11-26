@@ -83,3 +83,17 @@ a:hover{text-decoration:underline}
 .form-feedback{font-size:13px;color:var(--blue);font-weight:650}
 @media(max-width:900px){.service-grid{grid-template-columns:repeat(2,1fr)}.course-grid{grid-template-columns:repeat(2,1fr)}.hero{gap:30px}.payment-section{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.site-header{padding:12px 18px}.menu-toggle{display:block}.main-nav,.nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;padding:18px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:16px}.main-nav.open,.nav.open{display:flex}.hero{grid-template-columns:1fr;padding:55px 22px}.hero-panel{min-height:230px}.section{padding:55px 22px}.service-grid,.course-grid{grid-template-columns:1fr}.academy-strip,.contact-section,.payment-section{margin:0;padding:45px 22px;display:grid;grid-template-columns:1fr}.academy-strip{margin:0 12px}.form-grid{grid-template-columns:1fr}.full-width{grid-column:auto}.enrol-form{padding:20px}.site-footer{padding:20px 22px}}
+
+
+/* Real business photography */
+.brand-logo{width:48px;height:48px;object-fit:contain;border-radius:50%;flex:0 0 auto}
+.photo-feature{display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center;margin:36px 0}
+.photo-feature img{display:block;width:100%;height:100%;max-height:440px;object-fit:cover;border-radius:22px;box-shadow:var(--shadow)}
+.photo-feature-copy h2{color:var(--navy);font-size:clamp(26px,3.5vw,38px);line-height:1.15;margin:0 0 12px}
+.photo-feature-copy p{color:var(--muted)}
+.photo-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
+.photo-card{margin:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 8px 25px rgba(8,43,89,.06)}
+.photo-card img{display:block;width:100%;height:250px;object-fit:cover}
+.photo-card figcaption{padding:14px 16px;color:var(--navy);font-size:13px;font-weight:700}
+.brochure-link{display:block;margin-top:12px;font-weight:750}
+@media(max-width:650px){.photo-feature{grid-template-columns:1fr;gap:18px}.photo-feature img{max-height:340px}.photo-gallery{grid-template-columns:1fr}.photo-card img{height:auto;max-height:320px;object-fit:contain;background:#f5f8fc}}
