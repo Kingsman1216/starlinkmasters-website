@@ -97,3 +97,20 @@ a:hover{text-decoration:underline}
 .photo-card figcaption{padding:14px 16px;color:var(--navy);font-size:13px;font-weight:700}
 .brochure-link{display:block;margin-top:12px;font-weight:750}
 @media(max-width:650px){.photo-feature{grid-template-columns:1fr;gap:18px}.photo-feature img{max-height:340px}.photo-gallery{grid-template-columns:1fr}.photo-card img{height:auto;max-height:320px;object-fit:contain;background:#f5f8fc}}
+
+/* Clickable service cards and service detail pages */
+.service-card-link{display:block;color:inherit;text-decoration:none;cursor:pointer}
+.service-card-link:hover{text-decoration:none;border-color:#9fc4ee}
+.service-learn{display:inline-block;margin-top:16px;color:var(--blue);font-size:12px;font-weight:800}
+.detail-hero{padding:68px max(7vw,24px);background:linear-gradient(120deg,#f5f9ff,#eaf3ff)}
+.detail-hero h1{max-width:850px;font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-.045em;color:var(--navy);margin:0 0 14px}
+.detail-hero>p:not(.eyebrow){max-width:720px;color:#50627a;font-size:18px;margin-bottom:25px}
+.detail-content{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:start}
+.detail-photo img{display:block;width:100%;max-height:480px;object-fit:cover;border-radius:20px;box-shadow:var(--shadow)}
+.detail-copy h2{font-size:clamp(25px,3vw,36px);line-height:1.15;color:var(--navy);margin:0 0 14px}
+.detail-copy>p{color:var(--muted)}
+.detail-copy ul{padding-left:22px;color:var(--ink)}
+.detail-copy li{padding:5px 0}
+.detail-note{font-size:13px;border-left:3px solid #9bcaff;padding-left:13px;margin:22px 0}
+.detail-back{padding:0 max(7vw,24px) 60px;font-weight:750}
+@media(max-width:650px){.detail-hero{padding:48px 22px}.detail-content{grid-template-columns:1fr;gap:25px}}
